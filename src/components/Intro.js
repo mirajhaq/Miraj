@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Intro.css";
 import EmailRoundedIcon from "@mui/icons-material//EmailRounded";
-import FractalTree from "./FractalTree";
+
 
 class Intro extends React.Component {
   constructor() {
@@ -21,7 +21,6 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <FractalTree></FractalTree>
         <div className="typist" avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
