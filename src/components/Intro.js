@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Intro.css";
 import EmailRoundedIcon from "@mui/icons-material//EmailRounded";
-import FractalTree from "./FractalTree";
 
 
 class Intro extends React.Component {
