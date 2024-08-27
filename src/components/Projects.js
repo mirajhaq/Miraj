@@ -6,6 +6,7 @@ import FadeInSection from "./FadeInSection";
 // import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
 
+
 class Projects extends React.Component {
   constructor() {
     super();
@@ -62,29 +63,40 @@ class Projects extends React.Component {
       }
     };
     */
+    
     const projects = {
-      "Adam A.I.": {
+      "Password Checker": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
+          "My own version of Have I been Pwned's password checker",
         techStack: "Javascript, HTML / CSS",
         link: "https://github.com/gazijarin/adamai",
         open: "https://gazijarin.github.io/AdamAI/"
-      },
-      
-      "Game Centre": {
+      }
+    
+      /*"Game Centre": {
         desc:
           "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
         techStack: "Java, Android Studio",
         link: "https://github.com/gazijarin/gamecentre",
         open: ""
       },
-      "Minimax Stonehenge": {
+      "Nothing yet dude": {
         desc:
           "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
         techStack: "Python",
         link: "https://github.com/gazijarin/stonehenge",
         open: ""
       }
+      */
+    };
+
+    // Define inline styles for the card title
+    const cardTitle = {
+      color: "green", // Change this to your desired color
+      fontSize: "1.2em",
+      fontWeight: "bold",
+      marginTop: "10px",
+      textTransform: "uppercase" // Optional: Convert text to uppercase
     };
 
     return (
@@ -136,7 +148,10 @@ class Projects extends React.Component {
                     ></ExternalLinks>
                   </div>
 
-                  <div className="card-title">{key}</div>
+                  <div className="card-title" style={{ color: 'var(--lightest-slate)'}}>
+  {key}
+</div>
+
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>
                 </li>
@@ -150,3 +165,4 @@ class Projects extends React.Component {
 }
 
 export default Projects;
+
