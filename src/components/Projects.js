@@ -90,15 +90,6 @@ class Projects extends React.Component {
       */
     };
 
-    // Define inline styles for the card title
-    const cardTitle = {
-      color: "green", // Change this to your desired color
-      fontSize: "1.2em",
-      fontWeight: "bold",
-      marginTop: "10px",
-      textTransform: "uppercase" // Optional: Convert text to uppercase
-    };
-
     return (
       <div id="projects">
         <div className="section-header">
