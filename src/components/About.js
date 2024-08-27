@@ -19,16 +19,16 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently an IT Analyst <b>IT Analyst</b> at
-        <a href="https://www.aboutamazon.com/"> Revcap</a>, I am passionate about advancing my career in 
-        Linux Systems Administration and cloud technologies, having completed the Azure Fundamentals certification 
+        I am currently an <b>IT Analyst</b> at
+        <a href="https://www.revcap.co.uk/"> Revcap</a>, I am passionate about advancing my career in 
+        Systems Administration and cloud technologies, having completed the Azure Fundamentals certification 
         and actively pursuing further expertise in Linux and AWS.
       </p>
     );
     const two = (
       <p>
         Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        science. I also read a lot of useless stories and game with friends
       </p>
     );
 
@@ -48,20 +48,20 @@ class About extends React.Component {
             <span className="section-title">/ about me</span>
           </div>
           <div className="about-content">
-            <div className="about-description">
-              {[one]}
-              {"Here are some technologies I have been working with:"}
-              <ul className="tech-stack">
-                {tech_stack.map(function (tech_item, i) {
-                  return (
-                    <div delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </div>
+            //<div className="about-description">
+              //{[one]}
+              //{"Here are some technologies I have been working with:"}
+              //<ul className="tech-stack">
+               // {tech_stack.map(function (tech_item, i) {
+                  //return (
+                    //<div delay={`${i + 1}00ms`}>
+                     // <li>{tech_item}</li>
+                   // </div>
                   );
                 })}
               </ul>
               {[two]}
-            </div>
+            //</div>
             <div className="about-image">
               <img alt="Miraj Haq" src={"/assets/me2.png"} />
             </div>
