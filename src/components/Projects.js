@@ -69,8 +69,8 @@ class Projects extends React.Component {
         desc:
           "My own version of Have I been Pwned's password checker",
         techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+        link: "https://github.com/mirajhaq/Password-Checker",
+        open: "https://github.com/mirajhaq/Password-Checker"
       }
     
       /*"Game Centre": {
