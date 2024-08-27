@@ -5,6 +5,10 @@
     font-weight: bold;
   }
 
+.navbar.bg-body-tertiary {
+  background-color: var(--navy) !important;
+}
+
   .navbar-light .navbar-brand  {
     color: var(--lightest-slate) !important;
   }
