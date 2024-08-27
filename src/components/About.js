@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
   constructor() {
@@ -37,6 +38,7 @@ class About extends React.Component {
 
     return (
       <div id="about">
+        <FadeInSection>
         <div>
           <div className="section-header">
             <span className="section-title">/ about me</span>
@@ -61,10 +63,10 @@ class About extends React.Component {
             </div>
           </div>
         </div>
+        </FadeInSection>
       </div>
     );
   }
 }
 
 export default About;
-
