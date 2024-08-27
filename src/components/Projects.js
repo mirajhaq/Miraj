@@ -23,8 +23,8 @@ class Projects extends React.Component {
   }
 
   render() {
-    const spotlightProjects = {
-      "No Man's Land": {
+    //const spotlightProjects = {
+      /*"No Man's Land": {
         title: "no man's land",
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
@@ -61,7 +61,7 @@ class Projects extends React.Component {
         image: "/assets/portfolio.png"
       }
     };
-    
+    */
     const projects = {
       "Adam A.I.": {
         desc:
