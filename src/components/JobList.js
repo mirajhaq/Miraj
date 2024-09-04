@@ -60,16 +60,20 @@ const JobList = () => {
       jobTitle: "IT Analyst",
       duration: "FEB 2022 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation...",
-        "Re-built Route 53's core domain management and DNS systems..."
+        "Oversaw the maintenance of IT systems and infrastructure. Developed detailed documentation, ensuring clarity in processes and configurations, contributing to improved system management and knowledge sharing",
+        "Business Continuity Planning: Actively participated in business continuity planning, contributing to the development of robust strategies that enhance organizational resilience and preparedness.",
+        "Fronted the development of a local version of the 'Have I Been Pwned' password checker. This project involved scripting in Python, PowerShell, HTML, and PHP.",
+        "Excelled in working collaboratively within the IT team and across departments, supporting successful project execution and fostering a productive work environment."
       ]
     },
     "CampbellReith": {
       jobTitle: "Graduate Structural Engineer",
       duration: "AUG 2021 - FEB 2022",
       desc: [
-        "Developed a Node.js smart home system...",
-        "Identified continuous improvements in data quality..."
+        "Performed Load Calculations: Accurately calculated structural loads, pressures, and stress distributions on building components to ensure compliance with engineering standards and safety regulations.",
+        "Developed Computer Models: Created detailed computer models and structural drawings using advanced software to evaluate the integrity and performance of structures. Cross-verified results with manual calculations to ensure accuracy.",
+        "Conducted Site Inspections: Executed thorough site inspections to assess the load-bearing capacity of ceiling beams and other structural elements.",
+        "Produced Technical Documentation: Generated comprehensive reports and documentation for structural assessments, including load analysis and compliance checks, to support project approvals and construction phases."
       ]
     }
   };
