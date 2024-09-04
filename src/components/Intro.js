@@ -31,9 +31,9 @@ class Intro extends React.Component {
           </span>
         </div>
         <div>
-          <div className="intro-subtitle">I don't know what to do.</div>
+          <div className="intro-subtitle">I'm bored.</div>
           <div className="intro-desc">
-            I'm a guy from London.
+            I'm an IT Analyst from London. I specialize in optimizing IT systems and enhancing business processes. With experience in technical support, system maintenance, and project contributions, I'm focused on solving real-world challenges and driving efficiency in technology.
           </div>
           <a
             href="mailto:mirajhaq@hotmail.com"
