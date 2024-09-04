@@ -26,10 +26,10 @@ class NavBar extends React.Component {
               <Nav.Link href="mailto:mirajhaq@hotmail.com">
                 <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
               </Nav.Link>
-              <Nav.Link href="https://github.com/gazijarin" target="_blank">
+              <Nav.Link href="https://github.com/mirajhaq" target="_blank">
                 <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/gazi-jarin-3644b0172/" target="_blank">
+              <Nav.Link href="https://www.linkedin.com/in/miraj-haq-6882ab175/" target="_blank">
                 <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
               </Nav.Link>
               <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
