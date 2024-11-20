@@ -13,22 +13,23 @@ class NavBar extends React.Component {
     return (
       <Navbar fixed="top" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#">Miraj Haq</Navbar.Brand>
+          <Navbar.Brand href="/">Miraj Haq</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
+              {/* Use absolute paths for navigation */}
+              <Nav.Link href="/#about">About</Nav.Link>
+              <Nav.Link href="/#experience">Experience</Nav.Link>
+              <Nav.Link href="/#projects">Projects</Nav.Link>
             </Nav>
-            <Nav className="mx-auto">
+            <Nav className="ms-auto">
               <Nav.Link href="mailto:mirajhaq@hotmail.com">
                 <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
               </Nav.Link>
-              <Nav.Link href="https://github.com/mirajhaq" target="_blank">
+              <Nav.Link href="https://github.com/gazijarin" target="_blank">
                 <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/miraj-haq-6882ab175/" target="_blank">
+              <Nav.Link href="https://www.linkedin.com/in/gazi-jarin-3644b0172/" target="_blank">
                 <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
               </Nav.Link>
               <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
