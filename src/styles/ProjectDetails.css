@@ -1,0 +1,85 @@
+/* General Layout */
+.project-details {
+  font-family: "Georgia", "Times New Roman", serif;
+  margin: 0 auto;
+  max-width: 80%;
+  line-height: 1.8;
+  padding: 50px;
+  color: #000000;
+  background-color: #fdfdfd;
+  
+}
+
+/* Fixed Header for Name */
+.fixed-header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10; /* Ensure it stays on top */
+}
+
+.project-name-link {
+  font-family: "NTR";
+  font-weight: bold;
+  color: black;
+  display: flex;
+  margin: auto;
+  font-size: 25px;
+}
+
+.project-name-link:hover {
+  text-decoration: underline;
+}
+
+/* Article */
+.project-article {
+  margin-top: 0px; /* Add spacing to prevent overlap with the header */
+}
+
+.project-title {
+  font-family: "NTR";
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.project-section {
+  margin-bottom: 40px;
+}
+
+.project-section h2 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.project-section p {
+  font-size: 20px;
+  font-family: source-serif-pro;
+}
+.project-section ul {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: source-serif-pro;
+}
+
+.project-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.project-section ul li {
+  margin-bottom: 10px;
+}
+
+/* Images */
+.project-images img {
+  display: block;
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
