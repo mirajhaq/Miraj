@@ -60,16 +60,18 @@ const JobList = () => {
       jobTitle: "IT Analyst",
       duration: "FEB 2022 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation...",
-        "Re-built Route 53's core domain management and DNS systems..."
+        "Deployed a cloud-based password checker application, integrating Python, PHP, and Azure services to enhance cybersecurity awareness.",
+        "Provided end-user support, resolving complex technical issues across Windows systems",
+        "Contributed to Business Continuity Planning using Zerto, earning the Zerto Certified Associate certification, and strengthened disaster recovery strategies.",
+        "Created detailed documentation for system configurations and troubleshooting processes, improving team efficiency and onboarding."
       ]
     },
     "CampbellReith": {
       jobTitle: "Graduate Structural Engineer",
       duration: "AUG 2021 - FEB 2022",
       desc: [
-        "Developed a Node.js smart home system...",
-        "Identified continuous improvements in data quality..."
+        "Conducted detailed structural analyses for various construction projects, ensuring designs met safety and compliance standards.",
+        "Performed on-site verifications, identified issues, and collaborated with design teams to implement solutions."
       ]
     }
   };
