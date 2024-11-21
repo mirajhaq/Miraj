@@ -30,7 +30,7 @@ html {
 
 a {
   text-decoration: none !important;
-  /*color: var(--green-bright) !important;*/
+  color: var(--green-bright) !important;
 }
 
 #content {
@@ -106,4 +106,3 @@ a {
     font-size: 32px;
   }
 }
-

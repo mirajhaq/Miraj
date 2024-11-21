@@ -21,7 +21,7 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        My name is Miraj, I am currently an <b>IT Analyst</b> at
+        I am currently an <b>IT Analyst</b> at
         <a href="https://www.revcap.co.uk/"> Revcap</a>, I am passionate about
         advancing my career in Systems Administration and cloud technologies,
         having completed the Azure Fundamentals certification and actively
@@ -31,7 +31,8 @@ class About extends React.Component {
 
     const two = (
       <p>
-        
+        Outside of work, I'm interested in following the developments of
+        science. I also read a lot of useless stories and game with friends
       </p>
     );
 
