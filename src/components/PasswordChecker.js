@@ -1,6 +1,5 @@
 // src/components/PasswordChecker.js
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/ProjectDetails.css";
 import NavBar from "./NavBar";
 
