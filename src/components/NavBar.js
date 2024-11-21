@@ -13,16 +13,16 @@ class NavBar extends React.Component {
     return (
       <Navbar fixed="top" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#">Miraj Haq</Navbar.Brand>
+          <Navbar.Brand href="/">Miraj Haq</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#intro">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
+              {/* Use absolute paths for navigation */}
+              <Nav.Link href="/#about">About</Nav.Link>
+              <Nav.Link href="/#experience">Experience</Nav.Link>
+              <Nav.Link href="/#projects">Projects</Nav.Link>
             </Nav>
-            <Nav className="mx-auto">
+            <Nav className="ms-auto">
               <Nav.Link href="mailto:mirajhaq@hotmail.com">
                 <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
               </Nav.Link>

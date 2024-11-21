@@ -60,11 +60,12 @@ const PasswordChecker = () => {
           <p>haveibeenpwned-downloader.exe</p>
           <p>This command by itself took 2 hours and it will save it in C:\Windows\System32 unless you specify</p>
           <p>haveibeenpwned-downloader.exe "C:\Users\mhaq\Desktop\parsed_passwords\pwnedpasswords.txt"</p>
-
+          <img src="../assets/untitled.png" alt="Password Checker Step 1" />
+          <p>You will get a .txt file like below</p>
         </section>
 
         <section className="project-images">
-          <img src="../assets/untitled.png" alt="Password Checker Step 1" />
+          
           <img src="/images/password-checker-step2.jpg" alt="Password Checker Step 2" />
         </section>
       </article>

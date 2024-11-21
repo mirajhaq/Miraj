@@ -18,6 +18,7 @@
     "react-dom": "^18.3.1",
     "react-p5-wrapper": "^4.1.2",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "react-typing-effect": "^2.0.5",
     "web-vitals": "^2.1.4"
@@ -47,4 +48,3 @@
     ]
   }
 }
-

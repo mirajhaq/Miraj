@@ -5,6 +5,7 @@
     font-weight: bold;
   }
 
+  /* Apply specific classes for Bootstrap */
 .navbar.bg-body-tertiary {
   background-color: var(--navy) !important;
 }

@@ -12,13 +12,14 @@ const isHorizontal = window.innerWidth < 600;
 const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "#f5f5f5", // fallback or your choice of color
+    backgroundColor: "var(--navy) !important", // fallback or your choice of color
     display: "flex",
     height: 300,
   },
   tabs: {
-    borderRight: `1px solid #ccc`, // Use a default color or your choice
+    borderRight: `0px solid #ccc`, // Use a default color or your choice
   },
+
 }));
 
 // Accessibility props for Tabs
@@ -80,16 +81,21 @@ const JobList = () => {
   return (
     <div className={classes.root}>
       <Tabs
-        orientation={!isHorizontal ? "vertical" : "horizontal"}
-        variant={isHorizontal ? "fullWidth" : "scrollable"}
-        value={value}
-        onChange={handleChange}
-        className={classes.tabs}
-      >
-        {Object.keys(experienceItems).map((key, i) => (
-          <Tab key={i} label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} />
-        ))}
-      </Tabs>
+      orientation={!isHorizontal ? "vertical" : "horizontal"}
+      variant={isHorizontal ? "fullWidth" : "scrollable"}
+      value={value}
+      onChange={handleChange}
+      sx={{
+        "& .MuiTabs-indicator": {
+          height: '2px',
+          backgroundColor: 'var(--green-bright)', // Use your custom color
+        },
+      }}
+    >
+      {Object.keys(experienceItems).map((key, i) => (
+        <Tab key={i} label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} />
+      ))}
+    </Tabs>
       {Object.keys(experienceItems).map((key, i) => (
         <TabPanel key={i} value={value} index={i}>
           <span className="joblist-job-title">

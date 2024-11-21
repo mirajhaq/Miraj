@@ -64,6 +64,18 @@ min-height: 50vh;
   font-weight: bold;
 }
 
+.card-title-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.card-title-link:hover .card-title {
+  text-decoration: underline;
+}
+
+
+
 .card-desc {
   font-family: "NTR", sans-serif;
   color: var(--slate);
