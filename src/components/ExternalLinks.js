@@ -23,6 +23,7 @@ class ExternalLinks extends React.Component {
         className="github-icon" 
         href={this.props.githubLink}
         target="_blank"
+        rel="noopener noreferrer"
         >
           <GitHubIcon
             style={{
@@ -36,6 +37,7 @@ class ExternalLinks extends React.Component {
           className="open-icon" 
           href={this.props.openLink}
           target="_blank"
+          rel="noopener noreferrer"
           >
             <OpenInBrowserIcon
               style={{
