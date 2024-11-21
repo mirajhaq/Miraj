@@ -6,10 +6,7 @@ import NavBar from "./NavBar";
 const AmbientLighting = () => {
   return (
     <div className="project-details">
-      <header className="fixed-header">
-        <Link to="/" className="project-name-link">Miraj Haq</Link>
-      </header>
-
+      <NavBar />
       <article className="project-article">
         <h1 className="project-title">Ambient Lighting</h1>
 
