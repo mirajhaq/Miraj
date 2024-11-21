@@ -1,5 +1,7 @@
 // src/components/AmbientLighting.js
 import React from "react";
+import "../styles/ProjectDetails.css";
+import NavBar from "./NavBar";
 
 const AmbientLighting = () => {
   return (
